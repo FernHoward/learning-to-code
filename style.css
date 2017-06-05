@@ -4,22 +4,22 @@ body {
 }
 
 #container {
-  width: 1000px;
-  font-family: 'Handlee', 'ClickerScript', 'Rochester', sans-serif;
-  font-size: 20px;
+  width: 700px;
+  font-family: 'arima madurai', 'Handlee', 'overlock', sans-serif;
+  font-size: 17px;
   text-align: center;
   margin: 10px auto;
 }
 
 h1 {
-  margin: 20px;
+  margin: 15px;
   color: #5c3650;
 }
 
 #app {
-  box-shadow: 0 0 0px #4D004D;
-  font-size: 27px;
-  color: #990080;
+  box-shadow: 0 0 0px #927391;
+  font-size: 17px;
+  color: #5c3650;
   background-color: white;
 }
 
@@ -36,10 +36,9 @@ form {
   border-left:    1px  solid #000000;
   border-right:   1px  solid #000000;
   border-bottom:  2px  solid #000000;
-  border-top:     15px solid #4d004d;
+  border-top:     15px solid #927391;
   text-align: center;
 }
-
 
 #create::-webkit-input-placeholder {
   color: #C3C3C4;
