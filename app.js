@@ -9,3 +9,14 @@ var addItemToPage = function(itemData) {
   }
   list.append(item)
 }
+var loadRequest = $.ajax({
+  type: 'GET',
+  url: "https://listalous.herokuapp.com/lists/Wash-Day-Routine-Checklist/"
+})
+loadRequest.done(function(dataFromServer) {
+  var itemsData = dataFromServer.items
+
+  itemsData.forEach(function(itemData) {
+    addItemToPage(itemData)
+  })
+})
